@@ -11,7 +11,7 @@ public class MusicContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data Source=musiclibrary.db");
+        optionsBuilder.UseSqlite("Data Source=Musikbibliotek.db");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
